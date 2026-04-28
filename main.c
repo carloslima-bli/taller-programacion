@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "sumar.h"
 #include "restar.h"
+#include "multiplicacion.h"
 
 int main()
 {
@@ -12,6 +13,7 @@ int main()
     sumar(a,b);
     printf("la suma es: %d\n", sumar(a,b));
     printf("la resta es: %d\n", restar(a,b));
+     printf("la resta es: %d\n", multiplicacion(a,b));
 
     return 0;
 }
